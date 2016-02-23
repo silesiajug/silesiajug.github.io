@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+body {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.custom-nav {
+  margin-top: 10px;
+}
+
+.text-spaced {
+  line-height: 190%;
+}
+
+.sjug-logo {
+  padding-left: 80px;
+  padding-top: 80px;
+  margin-top: -20px;
+  float: left;
+  cursor: pointer;
+  background: url("../img/sjug.png") no-repeat;
+}
+
+.icon-github {
+  padding-left: 16px;
+  padding-right: 4px;
+  margin-left: 4px;
+  background: url("../img/github.png") no-repeat;
+}
+
+.icon-meetup {
+  padding-left: 16px;
+  margin-left: -2px;
+  background: url("../img/meetup.png") no-repeat;
+}
+
+@media (min-width: 998px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
+}
+
+/* we can hide logo, when there's no place in nav bar */
+@media (max-width: 620px) {
+  .sjug-logo {
+    display: none;
+  }
+}
+
+/* menu view for mobile devices like smartphones */
+@media (max-width: 530px) {
+  nav ul li {
+    width: 100%;
+  }
+}
