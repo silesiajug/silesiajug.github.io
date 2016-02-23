@@ -34,6 +34,10 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
 .custom-nav {
   margin-top: 10px;
 }
@@ -68,10 +72,6 @@ body {
   .container {
     max-width: 960px;
   }
-}
-
-.container-narrow > hr {
-  margin: 30px 0;
 }
 
 /* Responsive: Portrait tablets and up */
