@@ -49,7 +49,7 @@ body {
 .sjug-logo {
   padding-left: 80px;
   padding-top: 80px;
-  margin-top: -20px;
+  margin-top: -10px;
   float: left;
   cursor: pointer;
   background: url("../img/sjug.png") no-repeat;
@@ -89,14 +89,14 @@ body {
 }
 
 /* we can hide logo, when there's no place in nav bar */
-@media (max-width: 620px) {
+@media (max-width: 680px) {
   .sjug-logo {
     display: none;
   }
 }
 
 /* menu view for mobile devices like smartphones */
-@media (max-width: 530px) {
+@media (max-width: 600px) {
   nav ul li {
     width: 100%;
   }
