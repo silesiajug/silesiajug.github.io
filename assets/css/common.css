@@ -89,14 +89,14 @@ body {
 }
 
 /* we can hide logo, when there's no place in nav bar */
-@media (max-width: 680px) {
+@media (max-width: 985px) {
   .sjug-logo {
     display: none;
   }
 }
 
 /* menu view for mobile devices like smartphones */
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   nav ul li {
     width: 100%;
   }
