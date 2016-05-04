@@ -70,6 +70,7 @@ body {
 
 .info-box {
     padding: 15px;
+    border-radius: 5px;
 }
 
 @media (min-width: 998px) {
