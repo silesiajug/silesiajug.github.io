@@ -68,6 +68,10 @@ body {
   background: url("../img/meetup.png") no-repeat;
 }
 
+.info-box {
+    padding: 15px;
+}
+
 @media (min-width: 998px) {
   .container {
     max-width: 960px;
