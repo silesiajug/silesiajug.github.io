@@ -46,6 +46,10 @@ body {
   line-height: 190%;
 }
 
+.text-spaced a {
+  margin-right: 25px;
+}
+
 .sjug-logo {
   padding-left: 80px;
   padding-top: 80px;
