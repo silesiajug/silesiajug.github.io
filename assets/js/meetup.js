@@ -8,7 +8,7 @@ var incomingMeetupUrl = "https://api.meetup.com/2/events?"
 var div = "#meetup-details";
 
 $.ajax({
-    type: "get",
+    type: "GET",
     dataType: "jsonp",
     url: incomingMeetupUrl,
     beforeSend: function() { displayLoadingMessage(div); },
