@@ -1,16 +1,10 @@
-var incomingMeetupUrl = "https://api.meetup.com/2/events?"
-                      + "offset=0&format=json&limited_events=False&"
-                      + "group_urlname=Silesia-JUG"
-                      + "&photo-host=public&page=20&"
-                      + "fields=&order=time&desc=false&status=upcoming"
-                      + "&key=7363144257e59129169442773f3";
-
+var incomingMeetupUrlProxy = "http://wittchen.biz.pl/sjug/meetup.php";
 var div = "#meetup-details";
 
 $.ajax({
     type: "GET",
     dataType: "jsonp",
-    url: incomingMeetupUrl,
+    url: incomingMeetupUrlProxy,
     beforeSend: function() { displayLoadingMessage(div); },
     success: function (data, text) { handleSuccessfulResponse(data, div); },
     error: function (request, status, error) { displayErrorMessage(div); },
