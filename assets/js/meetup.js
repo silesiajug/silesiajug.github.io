@@ -1,4 +1,4 @@
-var incomingMeetupUrlProxy = "http://wittchen.biz.pl/sjug/meetup.php";
+var incomingMeetupUrlProxy = "https://api.eu.yaas.io/pwittchen/sjug/v1"
 var div = "#meetup-details";
 
 $.ajax({
