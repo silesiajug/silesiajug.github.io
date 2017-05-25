@@ -28,6 +28,21 @@ body {
   line-height: 40px;
 }
 
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  border-radius: 0;
+  background: #2A3129;
+  color: #ffff66;
+}
+
+nav>li>a, .nav>li>a {
+  color: #000000;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  border-radius: 0;
+  color: #000000;
+}
+
 .footer {
   padding-top: 19px;
   color: #777;
