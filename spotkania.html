@@ -53,31 +53,7 @@
           </p>
 
           <h3>Spotkania za nami</h3>
-          <ul>
-            <li><h4>2017</h4>
-              <ul>
-                <li>Budowanie własnego systemu operacyjnego z wykorzystaniem Androida - 10.05.2017 - Michał Górny - <a href="https://www.meetup.com/Silesia-JUG/events/239534786/">wydarzenie na meetupie</a>, <a href="http://slides.com/michalgoorny/buildandroid#/">slajdy z prezentacji</a>, <a href="https://www.youtube.com/watch?v=MdZPXKFH3_w">nagranie z prezentacji (z archiwum WJUGa)</a></li>
-                <li>High-speed reactive microservices with Vert.x and rxJava - 21.04.2017 - Piotr Pracuch - <a href="https://www.meetup.com/Silesia-JUG/events/238381073/">wydarzenie na meetupie</a>, <a href="https://recordings.join.me/bJZ4lNivYUex1W4gY_BA9Q">nagranie z prezentacji</a></li>
-                <li>jOOQ - 10.03.2017 - Grzegorz Gajos - <a href="https://www.meetup.com/Silesia-JUG/events/238081932/">wydarzenie na meetupie</a></li>
-                <li>Algorithmic Trading - More an art than a science - 17.02.2017 - Tomasz Waszczyk - <a href="https://www.meetup.com/Silesia-JUG/events/237192854/">wydarzenie na meetupie</a>, <a href="https://quantfundpl.github.io/Presentation--Algorithmic-Trading---More-an-art-than-a-science/">slajdy z prezentacji</a></li>
-                <li>Kariera freelancera krok po kroku - 20.01.2017 - Szymon Stępniak - <a href="https://www.meetup.com/Silesia-JUG/events/236664303/">wydarzenie na meetupie</a></li>
-              </ul>
-            </li>
-            <li><h4>2016</h4>
-              <ul>
-                <li>JIT Me Baby One More Time - 09.12.2016 - Jarek Pałka - <a href="https://www.meetup.com/Silesia-JUG/events/235776373/">wydarzenie na meetupie</a></li>
-                <li>Java i Sztuczne Sieci Neuronowe - 18.11.2016 - Tomasz Sikora - <a href="https://www.meetup.com/Silesia-JUG/events/235402284/">wydarzenie na meetupie</a>, <a href="https://recordings.join.me/xKKKSoR23UmBVxue3camKA">nagranie z prezentacji</a></li>
-                <li>Chromecast: co to i jak się do tego zabrać? - 14.10.2016 - Mikołaj Nowak - <a href="https://www.meetup.com/Silesia-JUG/events/234441728/">wydarzenie na meetupie</a>, <a href="https://recordings.join.me/3AABZmAi9EyogL2sEqQ7FQ">nagranie z prezentacji</a></li>
-                <li>Dlaczego Hibernate? - 09.09.2016 - Grzegorz Gajos - <a href="https://www.meetup.com/Silesia-JUG/events/233530174/">wydarzenie na meetupie</a>, <a href="https://recordings.join.me/xXTWkdOYm0a8wUHQmv07lg">nagranie z prezentacji</a></li>
-                <li>BDD - Behavior-driven development - 19.08.2016 - Marek Paradysz - <a href="http://www.meetup.com/Silesia-JUG/events/232698051/">wydarzenie na meetupie</a></li>
-                <li>What is Apache Spark exactly? AMA o Apache Spark z Jackiem Laskowskim - 08.07.2016 - Jacek Laskowski - <a href="http://www.meetup.com/Silesia-JUG/events/232131209/">wydarzenie na meetupie</a></li>
-                <li>Thinking Immutably About Pipelines - 10.06.2016 - David Pollak - <a href="http://silesia.jug.pl/downloads/sjug05/Piping_java_june_2016_jug.pdf">prezentacja</a>, <a href="http://www.meetup.com/Silesia-JUG/events/231043865/">wydarzenie na meetupie</a></li>
-                <li>Statyczna analiza kodu - 13.05.2016 - Grzegorz Gajos - <a href="http://ggajos.com/sjug-static-code-analysis/">prezentacja</a>, <a href="http://www.meetup.com/Silesia-JUG/events/230659374/">wydarzenie na meetupie</a></li>
-                <li>Ionic - przypadek użycia - 16.04.2016 - Tomasz Waszczyk - <a href="http://tomaszwaszczyk.github.io/sjug-15-04-2016/">prezentacja</a>, <a href="http://www.meetup.com/Silesia-JUG/events/229888927/">wydarzenie na meetupie</a></li>
-                <li>Reactive Cloud - leverage AWS Lambda &amp; AWS API Gateway to develop event-driven, serverless solutions - 11.03.2016 - Adam Smolnik - materiały: <a href="http://smolnik.org/photo-collection-exercise.pdf">photo-collection-exercise.pdf</a>, <a href="http://smolnik.org/aws-waw-2-lambda.pdf">aws-waw-2-lambda.pdf</a>, <a href="http://www.meetup.com/Silesia-JUG/events/228773706/">wydarzenie na meetupie</a></li>
-                <li>Reactive Live Coding - 05.02.2016 - Piotr Wittchen - <a href="http://speakerdeck.com/pwittchen/reactive-live-coding">prezentacja</a>, <a href="https://github.com/pwittchen/guitar-browser">kod z prezentacji</a>, <a href="http://www.meetup.com/Silesia-JUG/events/228278996/">wydarzenie na meetupie</a></li>
-              </ul>
-            </li>
+          <ul id="events">
             <li><h4>2010-2015</h4>
               <ul>
                 <li>Wprowadzenie do Clojure i Web App - Hubert Iwaniuk</li>
@@ -123,8 +99,13 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/ie-object-keys-polyfill.js"></script>
+    <script src="assets/js/ie-object-assign-polyfill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/common.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/meetup-api/client.js"></script>
+    <script src="assets/js/meetup-api/extras.js"></script>
+    <script src="assets/js/meetup-api/exec.js"></script>
   </body>
 </html>
