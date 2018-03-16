@@ -1,10 +1,10 @@
-var incomingMeetupUrlProxy = "https://api.eu.yaas.io/pwittchen/sjug/v1"
+var incomingMeetupUrl = "https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=Silesia-JUG&photo-host=public&page=20&fields=&order=time&desc=false&status=upcoming&key=7b28232558576b2465233d3e15301177"
 var div = "#meetup-details";
 
 $.ajax({
     type: "GET",
     dataType: "jsonp",
-    url: incomingMeetupUrlProxy,
+    url: incomingMeetupUrl,
     beforeSend: function() { displayLoadingMessage(div); },
     success: function (data, text) { handleSuccessfulResponse(data, div); },
     error: function (request, status, error) { displayErrorMessage(div); },

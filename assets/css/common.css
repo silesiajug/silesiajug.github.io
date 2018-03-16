@@ -65,6 +65,10 @@ nav>li>a, .nav>li>a {
   margin-right: 25px;
 }
 
+.sponsors img {
+  padding-bottom: 4px;
+}
+
 .sjug-logo {
   padding-left: 80px;
   padding-top: 80px;
