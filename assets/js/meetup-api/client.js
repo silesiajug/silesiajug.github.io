@@ -1,5 +1,5 @@
 function MeetupApi() {
-    var BASE_URL = 'http://api.meetup.com';
+    var BASE_URL = 'https://api.meetup.com';
     
     var makeApiCall = function(uri, method, params, callback) {
         $.ajax({
