@@ -1,0 +1,10 @@
+### IntelliJ IDEA ###
+.idea
+/.idea
+*.iws
+*.iml
+*.ipr
+/out/
+
+.DS_Store
+
